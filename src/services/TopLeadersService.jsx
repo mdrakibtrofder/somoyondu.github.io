@@ -1,4 +1,27 @@
 const TopLeadersService = (year) => {
+  const topLeadersIn2026 = [
+    {
+      name: "মোঃ নাজমুল",
+      designation: "সভাপতি",
+      image: "committee-members/2026/president/nazmul.jpg",
+    },
+    {
+      name: "মামশুকা ফারহাত",
+      designation: "সিনিয়র সহ-সভাপতি",
+      image: "committee-members/2026/sr-vice-president/mumsuka.jpg",
+    },
+    {
+      name: "ফারহান নোশিন",
+      designation: "সাধারণ সম্পাদক",
+      image: "committee-members/2026/general-secretary/farhan.jpg",
+    },
+    {
+      name: "মো. মাহমুদুল হাসান আবির",
+      designation: "সিনিয়র যুগ্ম-সাধারণ সম্পাদক",
+      image: "committee-members/2026/joint-secretary/mahamudul.jpg",
+    },
+  ];
+
   const topLeadersIn2025 = [
     {
       name: "মোঃ তায়্যেবুর রহমান",
@@ -64,29 +87,6 @@ const TopLeadersService = (year) => {
       name: "এস. এম. মুসফিক হোসাইন",
       designation: "সিনিয়র যুগ্ম-সাধারণ সম্পাদক",
       image: "members/2023/musfick.jpg",
-    },
-  ];
-
-  const topLeadersIn2026 = [
-    {
-      name: "মোঃ নাজমুল",
-      designation: "সভাপতি",
-      image: "committee-members/2026/president/nazmul.jpg",
-    },
-    {
-      name: "মামশুকা ফারহাত",
-      designation: "সিনিয়র সহ-সভাপতি",
-      image: "committee-members/2026/sr-vice-president/mumsuka.jpg",
-    },
-    {
-      name: "ফারহান নোশিন",
-      designation: "সাধারণ সম্পাদক",
-      image: "committee-members/2026/general-secretary/farhan.jpg",
-    },
-    {
-      name: "মো. মাহমুদুল হাসান আবির",
-      designation: "সিনিয়র যুগ্ম-সাধারণ সম্পাদক",
-      image: "committee-members/2026/joint-secretary/mahamudul.jpg",
     },
   ];
 

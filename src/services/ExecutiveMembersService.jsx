@@ -1,4 +1,52 @@
 const ExecutiveMembersService = (year) => {
+  const executiveMembersIn2026 = [
+    {
+      name: "নাঈম আহমেদ",
+      designation: "সাধারণ সদস্য",
+      image: "members/2026/nayeem.jpg",
+    },
+    {
+      name: "তাসনিম সুলতানা সিফা",
+      designation: "সাধারণ সদস্য",
+      image: "members/2026/sifa.jpg",
+    },
+    {
+      name: "ইসমাইল হোসেন",
+      designation: "সাধারণ সদস্য",
+      image: "members/2026/ismail.jpg",
+    },
+    {
+      name: "জয় চন্দ্র দাস",
+      designation: "সাধারণ সদস্য",
+      image: "members/2026/joy.jpg",
+    },
+    {
+      name: "মো. সালমান শরীফ তিশান",
+      designation: "সাধারণ সদস্য",
+      image: "members/2026/tishan.jpg",
+    },
+    {
+      name: "ফাহমিদ তাউসিফ ইসলাম",
+      designation: "সাধারণ সদস্য",
+      image: "members/2026/tauseef.jpg",
+    },
+    {
+      name: "ফরিদ উদ্দিন মাসুদ ফাহিম",
+      designation: "সাধারণ সদস্য",
+      image: "members/2026/fahim.jpg",
+    },
+    {
+      name: "আইশা আন নূর",
+      designation: "সাধারণ সদস্য",
+      image: "members/2026/aisha.jpg",
+    },
+    {
+      name: "শেখ মো. মোশফিকুর হোসাইন রাফি",
+      designation: "সাধারণ সদস্য",
+      image: "members/2026/rafi.jpg",
+    },
+  ];
+
   const executiveMembersIn2025 = [
       {
         name: "তানামু রহমান স্বনাম",
@@ -153,54 +201,6 @@ const ExecutiveMembersService = (year) => {
       name: "উম্মে সালমা আলফি",
       designation: "কার্যনির্বাহী সদস্য",
       image: "members/2023/girl.jpg",
-    },
-  ];
-
-  const executiveMembersIn2026 = [
-    {
-      name: "নাঈম আহমেদ",
-      designation: "সাধারণ সদস্য",
-      image: "members/2026/nayeem.jpg",
-    },
-    {
-      name: "তাসনিম সুলতানা সিফা",
-      designation: "সাধারণ সদস্য",
-      image: "members/2026/sifa.jpg",
-    },
-    {
-      name: "ইসমাইল হোসেন",
-      designation: "সাধারণ সদস্য",
-      image: "members/2026/ismail.jpg",
-    },
-    {
-      name: "জয় চন্দ্র দাস",
-      designation: "সাধারণ সদস্য",
-      image: "members/2026/joy.jpg",
-    },
-    {
-      name: "মো. সালমান শরীফ তিশান",
-      designation: "সাধারণ সদস্য",
-      image: "members/2026/tishan.jpg",
-    },
-    {
-      name: "ফাহমিদ তাউসিফ ইসলাম",
-      designation: "সাধারণ সদস্য",
-      image: "members/2026/tauseef.jpg",
-    },
-    {
-      name: "ফরিদ উদ্দিন মাসুদ ফাহিম",
-      designation: "সাধারণ সদস্য",
-      image: "members/2026/fahim.jpg",
-    },
-    {
-      name: "আইশা আন নূর",
-      designation: "সাধারণ সদস্য",
-      image: "members/2026/aisha.jpg",
-    },
-    {
-      name: "শেখ মো. মোশফিকুর হোসাইন রাফি",
-      designation: "সাধারণ সদস্য",
-      image: "members/2026/rafi.jpg",
     },
   ];
 
